@@ -24,7 +24,11 @@ function SearchItem({
             <span className="header__link">{displayed_link}</span>
           </div>
         </div>
-        <a href={link} className="search-item__left__title">
+        <a 
+          href={link} 
+          target="_blank"
+          rel="noopener noreferrer" 
+          className="search-item__left__title">
           <b>{title}</b>
         </a>
         <p className="search-item__left__snippet">{snippet}</p>

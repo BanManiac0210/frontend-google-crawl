@@ -86,6 +86,7 @@ function ResultPage() {
               position={result.position}
               title={result.title}
               snippet={result.snippet}
+              link={result.link}
               redirect_link={result.redirect_link}
               displayed_link={result.displayed_link}
               thumbnail={result.thumbnail}
